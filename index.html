@@ -14,27 +14,29 @@
 
 
 <body>
-    <div class="heading">
-        <h1>PASSWORD GENERATOR TOOL</h1>
-        <p>Generate a secure password</p>
-        <div class="form-section">
-            <form action="" class="form-first">
-                <ul>
-                    <li>
-                        <input type="text" class="passwordgenerate" placeholder="Password displays here">
-                        <button><i id="copybtn" class="fa-regular fa-copy"></i></button>
-                        <button><i id="generatebtn" class="fa-solid fa-rotate-right"></i></button>
-                    </li>
-                    <input type="radio" id="superstrong" name="passwordstrength" value="superstrong">
-                    <label for="superstrong">Super Strong</label><br>
-                    <input type="radio" id="strong" name="passwordstrength" value="strong">
-                    <label for="strong">Strong</label><br>
-                    <input type="radio" id="weak" name="passwordstrength" value="weak">
-                    <label for="weak">Weak</label>
-                </ul>
-            </form>
+
+    <h1>PASSWORD GENERATOR TOOL</h1>
+    <p>Generate a secure password</p>
+
+    <form id="mainform">
+        <div class="container">
+
+            <h3 id="passworddisplay"></h3>
+
+            <button id="copybtn">copy</button>
+
+            <button id="generatebtn">Generate</button><br>
+
+            <input type="radio"  name="passwordstrength" class="radiobtn" checked>Super Strong<br>
+
+            <input type="radio" name="passwordstrength" class="radiobtn">Strong <br>
+
+            <input type="radio" name="passwordstrength" class="radiobtn">Weak
+
         </div>
-    </div>
+
+    </form>
+
 
     <script src="script.js"></script>
 </body>
