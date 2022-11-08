@@ -89,7 +89,7 @@ copyBtn.addEventListener('click', async (e) => {
 
     await navigator.clipboard.writeText(passwordCopy.innerHTML);
 
-    alert("Copied");
+    alert("Text Copied");
 })
 
 
