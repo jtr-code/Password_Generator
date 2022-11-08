@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -14,42 +15,38 @@
 
 
 <body>
+    <div class="main">
 
-    <h1>PASSWORD GENERATOR TOOL</h1>
-    <p>Generate a secure password !</p>
+        <h1>PASSWORD GENERATOR TOOL</h1>
 
-    <form id="mainform">
+        <p>Generate a secure password !</p>
 
         <div class="container">
 
-            <h3 id="passworddisplay">Displays here</h3>
+            <form id="mainform">
 
-            <button id="copybtn" title="Copy"><i class="fa-regular fa-copy"></i></button>
+                <h3 id="passworddisplay">Displays here</h3>
 
-            <button id="generatebtn" title="Generate"><i class="fa-sharp fa-solid fa-rotate"></i></button><br>
+                <button id="copybtn" title="Copy"><i class="fa-regular fa-copy"></i></button>
 
-            <label> <input type="radio" name="passwordstrength" class="radiobtn" checked> <span> Super Strong
-                    Password</span> <br> </label>
+                <button id="generatebtn" title="Generate"><i class="fa-sharp fa-solid fa-rotate"></i></button><br>
 
-            <label>
-                <input type="radio" name="passwordstrength" class="radiobtn"> <span> Strong Password</span> <br>
-            </label>
+                <label> <input type="radio" name="passwordstrength" class="radiobtn" checked> <span> Super Strong
+                        Password</span> <br> </label>
 
-            <label><input type="radio" name="passwordstrength" class="radiobtn"> <span> Weak Password</span> </label>
+                <label>
+                    <input type="radio" name="passwordstrength" class="radiobtn"> <span> Strong Password</span> <br>
+                </label>
+
+                <label>
+                    <input type="radio" name="passwordstrength" class="radiobtn"> <span> Weak Password</span>
+                </label>
+
+            </form>
 
         </div>
 
-    </form>
-    
-    <!-- <div class="articledesc">
-
-        <article class="desc">
-
-            <h2>What makes a password strong? </h2>
-<p>Humans aren’t very good at coming up with passwords that are either of those things, let alone both. So we created the 1Password Strong Password Generator to create secure, memorable passwords for you. 81% of data breaches are caused by reused or weak passwords, so random, unique passwords are your best defense against online threats.</p>
-        </article>
-
-    </div> -->
+    </div>
 
 
     <script src="script.js"></script>

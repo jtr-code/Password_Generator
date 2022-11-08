@@ -63,7 +63,7 @@ generateBtn.addEventListener("click", (e) => {
 
     if (radio[0].checked) {
 
-        pass = passwordObj.generateSuperStrongPassword(16);
+        pass = passwordObj.generateSuperStrongPassword(14);
 
     } else if (radio[1].checked) {
 
