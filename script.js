@@ -44,6 +44,9 @@ class Password {
     }
 }
 
+
+//generate button
+
 let passwordDisplay = document.getElementById('passworddisplay');
 
 let generateBtn = document.getElementById('generatebtn');
@@ -73,6 +76,8 @@ generateBtn.addEventListener("click", (e) => {
 
     passwordDisplay.innerHTML = pass;
 });
+
+//copy button
 
 let passwordCopy = document.getElementById('passworddisplay');
 
