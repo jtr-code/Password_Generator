@@ -22,9 +22,9 @@ h1 {
 }
 
 p {
-padding-top: 29px;
+    padding-top: 29px;
     text-align: center;
-    font-family: poppins,sans-serif;
+    font-family: poppins, sans-serif;
     font-size: 2.125rem;
     line-height: 40px;
     margin-bottom: 20px;
@@ -47,7 +47,7 @@ padding-top: 29px;
 h3 {
 
     width: 420px;
-    height: 50px;
+    height: 60px;
     font-size: 50px;
     text-align: center;
     justify-content: center;
@@ -55,7 +55,7 @@ h3 {
     border-radius: 25px;
     background-color: #fff;
     padding: 23px 100px;
-    font-family: Courier Prime Bits, monospace;
+    font-family: 'poppins', sans-serif;
     letter-spacing: .156rem;
     line-height: 1.2;
 }
@@ -70,7 +70,7 @@ h3 {
     border: none;
     border-radius: 50%;
     float: right;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 9px;
 
 }
@@ -86,7 +86,7 @@ h3 {
     border: none;
     border-radius: 50%;
     float: right;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 5px;
 
 }
@@ -139,19 +139,17 @@ input[type="radio"]:checked+span:before {
 }
 
 #generatebtn:hover {
+
     rotate: 90deg;
     background-color: #3b70d4;
     color: black;
-    font-size: 25px;
-
 
 }
 
 #copybtn:hover {
 
-    font-size: 25px;
+    font-size: 28px;
     background-color: #3b70d4;
     color: black;
 
 }
-
