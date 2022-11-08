@@ -16,22 +16,24 @@
 <body>
 
     <h1>PASSWORD GENERATOR TOOL</h1>
-    <p>Generate a secure password</p>
+    <p>Generate a secure password !</p>
 
     <form id="mainform">
+
         <div class="container">
 
-            <h3 id="passworddisplay"></h3>
+            <h3 id="passworddisplay">Displays here</h3>
 
-            <button id="copybtn"><i class="fa-regular fa-copy"></i></button>
+            <button id="copybtn" title="Copy"><i class="fa-regular fa-copy"></i></button>
 
-            <button id="generatebtn"><i class="fa-sharp fa-solid fa-rotate"></i></button><br>
+            <button id="generatebtn" title="Generate"><i class="fa-sharp fa-solid fa-rotate"></i></button><br>
 
-            <input type="radio"  name="passwordstrength" class="radiobtn" checked>Super Strong<br>
+            <label> <input type="radio" name="passwordstrength" class="radiobtn" checked> <span> Super Strong Password</span> <br> </label>
 
-            <input type="radio" name="passwordstrength" class="radiobtn">Strong <br>
+            <label>
+                <input type="radio" name="passwordstrength" class="radiobtn"> <span> Strong Password</span> <br> </label>
 
-            <input type="radio" name="passwordstrength" class="radiobtn">Weak
+            <label><input type="radio" name="passwordstrength" class="radiobtn"> <span> Weak Password</span> </label>
 
         </div>
 
